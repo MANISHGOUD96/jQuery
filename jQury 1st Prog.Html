@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+</script>
+
+<script>
+
+$(document).ready(function() {
+alert("You want to enter in page");
+$("#test1").hide();
+$("#test2").hide();
+
+$("button").click(function(){
+alert('Click for Show or Hide');
+$("#test1").show();
+$("#test2").show();
+$("#test3").hide();
+$(".abc").hide();
+$('h5').show();
+});
+
+});
+</script>
+
+<title>jQuery</title>
+</head>
+
+<body>
+
+<p id="test1">This is for dome0</p>
+<p id="test2">This is for dome1</p>
+<p id="test3">This is for dome2</p>
+<p id="test4">This is for dome3</p>
+
+ <h1 class="abc">Hello</h1> 
+ <h1 class="abc">Hi</h1> 
+ <h1 class="abc">Good Morning</h1> 
+ <h1 class="abc">Ji</h1> 
+
+<h5 style="display:none">This is Manish</h5>
+<button>Click</button>
+</body>
+
+</html>

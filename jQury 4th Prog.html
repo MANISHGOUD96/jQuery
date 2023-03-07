@@ -1,0 +1,47 @@
+
+<!doctype html>
+<head>
+<script>
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+</script>
+
+<script>
+
+$(document).ready(function(){
+
+<!-- $("button").click(function(){var name=$("#name").val(); -->
+<!-- if(name==""||name==null||name=="undefined") {alert("name to dalo bhai");return false;}  -->
+<!-- var Email=$("#email").val();var Phone=$("#phone").val();  -->
+ 
+<!--  alert(Name);alert(Email);alert(Phone); -->
+<!-- $("#name").val("");$("#email").val("");$("#phone").val(""); --> 
+ 
+ $("button").click(function(){
+ var name=$("#ttt").text();
+ var name2=$("#ttt").val();
+ var name3=$("#name3").val();
+ alert(name);
+ alert(name2);
+ alert(name3);
+}); 
+}); 
+</script>
+
+<title>lQuery</title>
+</head>
+
+
+<body>
+
+<label>Name</label>
+<input class="abc" value="Mansih Kumar Goud" id="name3" type="text"/>
+<label>Email</label>
+<input class="abc" id="email" type="text"/>
+<label>Phone</label>
+<input class="abc" id="phone" type="text"/>
+<br>
+<button>Click</button>
+<button id="ttt" value="Abhishek">Hello</button>
+</body>
+</html>
